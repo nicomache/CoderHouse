@@ -1,5 +1,5 @@
-for (let i=0; i <= 10; i++)
+let edad = prompt ("ingrse su edad");
+let añoActual = 2023
+let fechaDenacimiento = Number(añoActual - edad);
 
-
-
-document.write(i)
+alert("usted nacio en el año "+ fechaDenacimiento);
